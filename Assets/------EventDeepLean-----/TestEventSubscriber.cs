@@ -21,7 +21,7 @@ namespace EventDeepLean
         void Testing_OnClickDown(object sender,EventArgs e)
         {
             
-            Debug.Log(@"keydown"+" e.temp="+e);
+            Debug.Log(@"keydown"+" e.temp="+((ArgsExtend)e).temp);
         }
         
     }

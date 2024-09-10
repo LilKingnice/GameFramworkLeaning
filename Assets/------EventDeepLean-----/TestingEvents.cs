@@ -20,8 +20,8 @@ namespace EventDeepLean
         public event EventHandler<ArgsExtend> OnKeyDown;
         
         //dotnet事件声明方式
-        public event myEventDelegate OnKeyDown2;
         public delegate void myEventDelegate(float a);
+        public event myEventDelegate OnKeyDown2;
         
         
         //使用内置委托声明
