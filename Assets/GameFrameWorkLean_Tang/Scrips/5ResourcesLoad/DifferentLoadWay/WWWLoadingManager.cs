@@ -18,6 +18,10 @@ public enum WWWLoadingType
 /// </summary>
 public class WWWLoadingManager : BaseSingletonWithoutMono<WWWLoadingManager>
 {
+    private WWWLoadingManager()
+    {
+        
+    }
 
     /// <summary>
     /// using http obtain resources

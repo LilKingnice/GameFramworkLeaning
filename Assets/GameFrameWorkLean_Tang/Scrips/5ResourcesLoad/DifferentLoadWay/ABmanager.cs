@@ -8,6 +8,10 @@ using UnityEngine.Events;
 /// </summary>
 public class ABmanager : BaseSingletonWithoutMono<ABmanager>
 {
+    private ABmanager()
+    {
+        
+    }
     //主包
     private AssetBundle mainAB = null;
     //主包依赖获取配置文件

@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneMgr : BaseSingletonWithoutMono<SceneMgr>
 {
-    
+    private SceneMgr()
+    {
+    }
 
     public void LoadingScene(string scenename,UnityAction callback=null)
     {

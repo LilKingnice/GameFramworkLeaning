@@ -48,6 +48,10 @@ public class ResInfo<T> : ResInfoBase
 /// </summary>
 public class ResourcesManager : BaseSingletonWithoutMono<ResourcesManager>
 {
+    private ResourcesManager()
+    {
+    }
+
     //Used to store resources that have been loaded or loading
     Dictionary<string, ResInfoBase> ResDic = new Dictionary<string, ResInfoBase>();
 

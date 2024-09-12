@@ -6,19 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/GameFrameWorkLean_Tang/Scenes/PoolManagerModule.unity
+    path: Assets/GameFrameWorkLean_Tang/Scrips/3PoorManager/Scenes/PoolManagerModule.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/GameFrameWorkLean_Tang/Scenes/EventSystemCenterModule.unity
+    path: Assets/GameFrameWorkLean_Tang/Scrips/4EventSystem/Scenes/EventSystemCenterModule.unity
     guid: 7eeabdaf5f361ec488a2f57c7a1934eb
   - enabled: 1
-    path: Assets/GameFrameWorkLean_Tang/Scenes/AudioManagerModule.unity
+    path: Assets/GameFrameWorkLean_Tang/Scrips/6AudioSystem/Scenes/AudioManagerModule.unity
     guid: 68093f175271d44419d676cc6d636e95
   - enabled: 1
-    path: Assets/GameFrameWorkLean_Tang/Scenes/ResourcesLoadModule.unity
+    path: Assets/GameFrameWorkLean_Tang/Scrips/5ResourcesLoad/Scenes/ResourcesLoadModule.unity
     guid: 95ae1376e6e77e6469b0ca67a41ec997
   - enabled: 1
-    path: Assets/GameFrameWorkLean_Tang/Scenes/SceneManagerModule.unity
+    path: Assets/GameFrameWorkLean_Tang/Scrips/8SceneLoadingManager/Scenes/SceneManagerModule.unity
     guid: 330f66092568ccd4aaf9e712e5f5d0e6
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 33a885f4bbf07ec4c9efc4f1b6dc9d8f, type: 2}

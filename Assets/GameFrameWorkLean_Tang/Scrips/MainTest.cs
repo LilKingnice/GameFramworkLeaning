@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MainTest : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class MainTest : MonoBehaviour
     Vector3 pos;
     void Start()
     {
-        Poolmanager.isOpenLayout=this.isOpenLayout;
+        // Poolmanager.isOpenLayout=this.isOpenLayout;
     }
     private void Update()
     {
@@ -29,8 +30,16 @@ public class MainTest : MonoBehaviour
         if (Input.GetMouseButton(1))
         {
             pos=MousePointToWorld.Instance.GetMousePosition();
-            //Poolmanager.Instance.PopItem("Sphere",MousePointToWorld.Instance.GetMousePosition());
+            // Poolmanager.Instance.PopItem("Sphere",MousePointToWorld.Instance.GetMousePosition());
             Instantiate(Resources.Load<GameObject>("Sphere"), pos, Quaternion.identity.normalized);
+        }
+
+
+
+        
+        if (Keyboard.current.sKey.wasPressedThisFrame)
+        {
+            PoolCube.Instance.CubeTest();
         }
         #endregion
     }

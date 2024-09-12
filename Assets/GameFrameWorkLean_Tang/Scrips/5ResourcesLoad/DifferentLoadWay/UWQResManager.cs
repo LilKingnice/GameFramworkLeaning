@@ -17,6 +17,11 @@ public enum LoadingType
 /// </summary>
 public class UWQResManager : BaseSingletonWithoutMono<UWQResManager>
 {
+    private UWQResManager()
+    {
+        
+    }
+
     public void LoadResource<T>(string url, UnityAction<T> callBack, UnityAction failedCallBack, LoadingType loadingType) where T : class
     {
         // BaseMono.Instance.StartCoroutine(IE_LoadResource(url, callBack, failedCallBack));

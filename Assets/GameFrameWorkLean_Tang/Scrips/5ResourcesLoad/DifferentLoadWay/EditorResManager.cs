@@ -11,6 +11,10 @@ using UnityEngine;
 /// </summary>
 public class EditorResManager : BaseSingletonWithoutMono<EditorResManager>
 {
+    private EditorResManager()
+    {
+        
+    }
 
     string rootPath = "Assets/Editor/Arts/";
 
